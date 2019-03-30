@@ -1,0 +1,619 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+
+.hedear-img {
+    background-size: cover;
+    background-image: url(../img/header-img/wall.jpg);
+    background-attachment: fixed;
+}
+
+.header-bkg {
+    background-color: rgb(70, 52, 78, 0.6);
+    padding-top: 1em;
+}
+
+.header-meniu {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-meniu-postion {
+    list-style-type: none;
+}
+
+.header-web-name {
+    color: white;
+    display: inline-block;
+    margin: 1em 2em 1em 6em;
+    font-family: 'Allerta Stencil', sans-serif;
+    letter-spacing: .6em;
+    border-top: solid 1px #FAED26;
+    border-radius: 0.6em;
+    padding: 0 0 0 0.6em;
+}
+
+.header-meniu-icon {
+    display: inline-block;
+    color: white;
+    float: right;
+    margin: 1em .5em 1em .5em;
+    color: #FAED26;
+}
+
+.header-meniu-text:hover {
+    background-color: black;
+}
+
+.header-meniu-text {
+    font-family: 'Chakra Petch', sans-serif;
+    display: inline-block;
+    color: white;
+    float: right;
+    padding: 1em 1em 1em 1em;
+    margin: 0 .5em 0 .5em;
+    font-weight: 600;
+}
+
+.header-text-container {
+    width: 100%;
+}
+
+.header-text-icon {
+    display: block;
+    width: 170px;
+    margin: auto;
+}
+
+.header-top-text {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    color: #FAED26;
+    font-family: 'Notable', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 1px 5px black;
+}
+
+.header-text-center {
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 3px black;
+}
+
+.meniu-postion {
+    text-align: center;
+    margin: auto;
+}
+
+.heder-buttom-postion {
+    display: block;
+    text-align: center;
+    padding: 2.5em;
+}
+
+.heder-buttom-text {
+    text-align: center;
+    background: linear-gradient(to bottom, #faed26 0%, #46344e 100%);
+    text-transform: uppercase;
+    padding: .5em 3em .5em 3em;
+    border-radius: 3em;
+    color: #46344e;
+    font-family: 'Russo One', sans-serif;
+    border: solid 1px #FAED26;
+    font-weight: 900;
+}
+
+
+/*container-about*/
+
+.containe-about {
+    background-color: #9D8D8F;
+    padding: 2em;
+}
+
+.containe-about:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.header-about {
+    padding: 2em 0 0 0;
+}
+
+.about-text {
+    display: block;
+    text-align: center;
+    color: black;
+    font-family: 'Ranga', cursive;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.flout-left-about {
+    float: left;
+    width: 33%;
+}
+
+.about-img-center {
+    width: 100%;
+}
+
+.contaner-about-center {
+    padding: 3em 0 3em 0;
+    text-align: center;
+}
+
+.about-img {
+    border: solid 1px gray;
+    border-radius: 1em;
+    padding: 1em;
+    width: 6em;
+    background-color: #46344E;
+    text-align: center;
+}
+
+.about-name {
+    padding: 0.5em;
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 1.3em;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.text-about-buttom {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+/*container-about-discount*/
+
+.container-about-discount {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/section-img/discount.jpg);
+}
+
+.container-about-discount-bkg {
+    padding: 4em;
+    border-bottom: solid 2em rgba(0, 0, 0, 0.5);
+    border-top: solid 2em rgba(0, 0, 0, 0.5);
+    background-color: rgb(70, 52, 78, 0.5);
+}
+
+.container-about-discount-text {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    color: #FAED26;
+    font-family: 'Ranga', cursive;
+    text-shadow: 1px 5px black;
+}
+
+.container-about-discount-text1 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    color: #FAED26;
+    font-family: 'Ranga', cursive;
+    text-shadow: 1px 5px black;
+}
+
+.container-about-discount-text2 {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    color: #FAED26;
+    font-family: 'Ranga', cursive;
+    text-shadow: 1px 5px black;
+}
+
+
+/*container-produckt*/
+
+.meniu-text-product-postion {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.meniu-text-product {
+    display: inline-block;
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    border-bottom: solid 1px black;
+    box-shadow: 0px 3px #888888;
+}
+
+.meniu-text-product:hover {
+    border-bottom: solid 1px yellow;
+}
+
+.product-container {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+
+.product-img-postion {
+    display: inline-block;
+    list-style-type: none;
+    margin: 1em;
+}
+
+.box-img {
+    position: relative;
+    height: 20em;
+    background-size: cover;
+    padding: 0 23.8em 0em 0em;
+    width: 100%;
+    border: 1px solid;
+    box-shadow: 0px 5px 25px 5px grey;
+}
+
+.box-img:hover {
+    background-color: rgb(70, 52, 78, 0.5);
+}
+
+.box-price2 {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    top: 0;
+    visibility: hidden;
+}
+
+.box-img:hover .box-price2 {
+    visibility: visible;
+}
+
+.box-price {
+    position: absolute;
+    top: 0;
+    padding: .5em;
+    color: white;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.img-size {
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    margin: 20px 70px 0 70px;
+}
+
+.box-text {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 600;
+    background-color: #FAED26;
+    text-align: center;
+    width: 100%;
+    padding: .5em;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 20px white;
+}
+
+.box-price-icon {
+    display: block;
+}
+
+.box-price-icon i {
+    margin: .1em .5em 0 .5em;
+    color: rgb(70, 52, 78);
+}
+
+
+/*container about informacion product*/
+
+.header-about-deal {
+    padding: 2em 0 2em 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.about-text-deal {
+    display: block;
+    text-align: center;
+    color: black;
+    font-family: 'Ranga', cursive;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.deal-bkg {
+    text-align: center;
+    background-image: url(../img/Deal-Today-img/fonas.png);
+    position: relative;
+}
+
+.fonas-deal {
+    background-color: rgb(70, 52, 78, 0.5);
+    padding: 2em;
+}
+
+.fonas-deal:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.deal-img-city {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.deal-big-text-postion {
+    padding-right: 2em;
+    padding-left: 2em;
+    width: 50%;
+    float: left;
+}
+
+.deal-top-text {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+    font-family: 'Permanent Marker', cursive;
+    color: yellow;
+}
+
+.deal-center-text {
+    margin: 2em 0 2em 0;
+    color: black;
+    letter-spacing: 0.1em;
+    word-spacing: 0.3em;
+    font-size: 1.1em;
+}
+
+.deal-webname {
+    color: red;
+    font-weight: 600;
+}
+
+.deal-text-butoom {
+    width: 100%;
+    display: block;
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9em;
+    padding: .5em;
+    border-radius: 4em;
+    border: solid 1px yellow;
+    background-color: #46344e;
+}
+
+.deal-container2 {
+    float: left;
+    padding: 2em 0 2em 0;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.deal-star i {
+    padding: 1em;
+    color: yellow;
+}
+
+.box-img-deal {
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev {
+    margin: 0;
+    top: 50%;
+    left: 1%;
+    padding: 0;
+}
+
+.next {
+    margin: 0;
+    top: 50%;
+    right: 1%;
+    padding: 0;
+}
+
+.deal-img-botoom {
+    width: 99%;
+    margin-left: 1.5em;
+}
+
+.deal-img-botoom-center {
+    width: 99%;
+    margin-left: 1.5em;
+}
+
+img.deal-img-botoom:hover {
+    filter: hue-rotate(-0.25turn);
+}
+
+
+/*none*/
+
+@media (min-width: 0px) and (max-width: 349px) {
+    * {
+        display: none;
+    }
+}
+
+
+/*phone*/
+
+@media (min-width: 350px) and (max-width: 610px) {
+    .header-meniu {
+        text-align: center;
+    }
+    .header-meniu-postion {
+        list-style-type: none;
+        display: inline-block;
+        margin: auto 0;
+    }
+    .header-meniu-icon {
+        margin: auto;
+        width: 100%;
+        padding: 1em;
+    }
+    .header-meniu-text {
+        display: block;
+        margin: auto 0;
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+    .header-web-name {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    .heder-buttom-text {
+        padding: .5em 1em .5em 1em;
+    }
+    /*  containe-about  */
+    .flout-left-about {
+        width: 100%;
+    }
+    .containe-about {
+        padding: 0;
+    }
+    .about-img-center {
+        display: none;
+    }
+    /*    section deal*/
+    .deal-big-text-postion {
+        width: 100%;
+    }
+    .deal-img-city {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .box-img-deal {
+        width: 60%;
+        margin-left: 14%;
+    }
+    .display-img {
+        display: none;
+    }
+    .deal-img-botoom {
+        width: 100%;
+    }
+    .prev {
+        margin: 0;
+        top: 49%;
+        left: 5%;
+        padding: 0;
+    }
+    .next {
+        margin: 0;
+        top: 49%;
+        right: 5%;
+        padding: 0;
+    }
+}
+
+
+/*MD*/
+
+@media (min-width: 611px) and (max-width: 990px) {
+    /*    Container-header*/
+    .header-meniu {
+        text-align: center;
+    }
+    .header-meniu-postion {
+        list-style-type: none;
+        display: inline-block;
+        margin: auto 0;
+    }
+    .header-meniu-icon {
+        margin: auto;
+        padding: 1em;
+    }
+    .header-meniu-text {
+        display: block;
+        margin: auto 0;
+        float: left;
+        text-align: center;
+    }
+    .header-web-name {
+        margin: 0;
+        text-align: center;
+        display: block;
+    }
+    /*Container-about*/
+    .text-about-buttom {
+        margin: 4%;
+    }
+    .flout-left-about {
+        width: 50%;
+    }
+    .about-img-center {
+        display: none;
+    }
+    /*Container Deal*/
+    .deal-big-text-postion {
+        width: 100%;
+    }
+    .deal-img-city {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .deal-img-botoom {
+        margin-left: 6%;
+    }
+    .prev {
+        margin: 0;
+        top: 45%;
+        left: 0;
+        padding: 0;
+    }
+    .next {
+        margin: 0;
+        top: 45%;
+        right: 0;
+        padding: 0;
+    }
+}
